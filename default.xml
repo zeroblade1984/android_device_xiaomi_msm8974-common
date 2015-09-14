@@ -58,6 +58,7 @@
   <project path="packages/services/Telecomm" name="temasek/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
   <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="temasek/android_vendor_cm" remote="github" revision="cm-12.1" />
+  <project path="vendor/cmsdk" name="temasek/cm_platform_sdk" remote="github" revision="cm-12.1" />
   <project path="system/core" name="temasek/android_system_core" remote="github" revision="cm-12.1" />
   <project path="system/security" name="temasek/android_system_security" remote="github" revision="cm-12.1" />
   <project path="external/libavc" name="temasek/android_external_libavc" remote="github" revision="master" />
@@ -521,7 +522,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <!-- Uber Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.8" remote="bit" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bit" revision="master" />
