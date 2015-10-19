@@ -27,7 +27,6 @@
   <project path="android" name="temasek/android" remote="github" revision="cm-12.1" />
 
   <!-- START of temasek -->
-  <project path="art" name="temasek/android_art" remote="github" revision="cm-12.1" />
   <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-12.1" />
   <project path="development" name="temasek/android_development" remote="github" revision="cm-12.1" />
   <project path="frameworks/av" name="temasek/android_frameworks_av" remote="github" revision="cm-12.1" />
@@ -67,7 +66,6 @@
   <project path="system/security" name="temasek/android_system_security" remote="github" revision="cm-12.1" />
   <project path="external/jpeg" name="temasek/android_external_jpeg" remote="github" revision="cm-12.1" />
   <project path="external/libavc" name="temasek/android_external_libavc" remote="github" revision="master" />
-  <project path="external/libhevc" name="temasek/android_external_libhevc" remote="github" revision="master" />
   <project path="external/chromium_org/third_party/WebKit" name="temasek/android_external_chromium_org_third_party_WebKit" remote="github" revision="cm-12.1" />
   <project path="external/lz4" name="temasek/android_external_lz4" remote="github" revision="cm-12.1" />
   <project path="external/sepolicy" name="temasek/android_external_sepolicy" remote="github" revision="cm-12.1" />
@@ -78,6 +76,7 @@
   <!-- END of temasek -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -106,7 +105,6 @@
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
-  <project path="external/efence" name="CyanogenMod/android_external_boundarydevices_efence" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -230,6 +228,7 @@
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
+  <project path="external/libhevc" name="platform/external/libhevc" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" remote="aosp" />
